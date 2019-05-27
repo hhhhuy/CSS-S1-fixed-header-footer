@@ -1,0 +1,26 @@
+.navbar {
+    /*position: giữ menu cố định tại một vị trí*/
+    position: fixed;
+    /*top: giữ menu cố định tại vị trí = 0*/
+    top: 0;
+    /*độ rộng của menu bằng độ rộng của trang*/
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+}
+.navbar a {
+    /*float: vị trí : sắp xếp các thẻ a theo thứ tự từ trái sang phải */
+    float: left;
+    /*font-size: cỡ chữ*/
+    font-size: 17px;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    display: block;
+}
+.main {
+    height: 1500px;
+    margin-top: 30px;
+    padding: 16px;
+}
